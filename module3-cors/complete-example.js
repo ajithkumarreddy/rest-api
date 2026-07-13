@@ -6,5 +6,5 @@ app.use(
     credentials: true,
     exposedHeaders: ["X-Total-Count"],
     maxAge: 3600,
-  })
+  }),
 );
