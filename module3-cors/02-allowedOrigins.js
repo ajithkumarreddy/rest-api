@@ -11,3 +11,10 @@ app.use(
     origin: allowedOrigins,
   }),
 );
+
+/**
+ * Output:
+ * Access-Control-Allow-Origin: http://localhost:5173
+ * or
+ * Access-Control-Allow-Origin: http://localhost:5000
+ */

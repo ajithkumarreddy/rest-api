@@ -4,6 +4,9 @@ const express = require("express");
 const app = express();
 
 // allow all requests
+/**
+ * Same-Origin Policy (SOP)
+ */
 app.use(cors());
 
 // or
