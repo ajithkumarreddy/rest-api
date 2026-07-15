@@ -1,0 +1,8 @@
+200 - OK - Request succeeded
+GET /users
+
+201 - Created
+POST /users
+
+204 - No Content 
+DELETE /users/10 (user deleted. No response body)

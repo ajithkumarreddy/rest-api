@@ -1,0 +1,17 @@
+400 - Bad Request
+Wrong format / Missing field / Invalid JSON
+
+401 - Unauthorized
+GET /profile - No token sent - You didn't authenticate
+
+403 - Forbidden
+DELETE /admin/users - You are logged in - But you don't have permission
+
+404 - Not found
+GET /users/9999 - No such user
+
+409 - Conflict
+POST /users - User already exists - The request conflicts with existing data
+
+422 - Unprocessable Entity
+Valid JSON - But business logic failed
