@@ -1,5 +1,7 @@
 /**
  * Request body
+ * req.body
+ * 
  * The body carries actual data.
  * Usually with POST, PUT, PATCH
  */

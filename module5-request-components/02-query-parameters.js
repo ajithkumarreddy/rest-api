@@ -1,5 +1,7 @@
 /**
  * Query parameters
+ * req.query
+ * 
  * These come after the question mark (?)
  * GET /products?category=mobile
  */
