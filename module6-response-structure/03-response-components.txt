@@ -19,6 +19,12 @@ res.cookie() - Sets cookie in Browser
 res.clearCookie() - Clears the cookie
 
 /* Headers */
-res.set() - 
-res.header() - 
+res.set() - set headers or
+res.header() - set headers
 res.type() - Set Content-Type
+
+/* Location */
+res.location() - set response header location
+
+/* End */
+res.end() - Ends the response without sending a body
