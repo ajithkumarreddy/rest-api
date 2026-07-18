@@ -1,0 +1,11 @@
+url: https://api.example.com:3000/users/12?sort=name
+
+http/https - Protocol (How to communicate?)
+api.example.com - hostname (Which server?)
+    api - subdomain
+    example.com - domain
+:3000 - Port (Which application on the server?)
+/users/12 - path (Which resource)
+12 - Route Parameter (Dynamic value in the path)
+?sort=name - query string and query params (Extra options or filters)
+#section=headers - Fragment (Browser-only section identifier, not sent to the server)

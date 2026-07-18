@@ -1,0 +1,6 @@
+req.method - GET/POST/PUT
+req.url - /users/12?sort=name
+req.path - /users/12 - Not the query string
+req.get - "Authorization" / "User-Agent"
+req.ip - Returns the client's IP address
+req.host - api.example.com
