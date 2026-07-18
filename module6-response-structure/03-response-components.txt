@@ -1,0 +1,24 @@
+/* Send */
+res.send() - Sends almost anything
+res.json() - Sends specifically json
+
+/* Status */
+res.status() - Sets the HTTP status code
+res.sendStatus() - Sets the HTTP status code and sends it
+
+/* Redirect */
+res.redirect() - Redirects the client (Browser)
+
+/* Files */
+res.sendFile() - Send a file
+res.download() - Forces a file download (Browser)
+res.render() - Used with template engines (Example: EJS)
+
+/* Cookie */
+res.cookie() - Sets cookie in Browser
+res.clearCookie() - Clears the cookie
+
+/* Headers */
+res.set() - 
+res.header() - 
+res.type() - Set Content-Type
