@@ -1,8 +1,13 @@
-200 - OK - Request succeeded
-GET /users
+2xx - Success responses
+
+200 - OK
+The request succeeded and the server returned a response.
+Example: GET /users
 
 201 - Created
-POST /users
+The request created a new resource successfully.
+Example: POST /users
 
-204 - No Content 
-DELETE /users/10 (user deleted. No response body)
+204 - No Content
+The request succeeded, but there is no response body.
+Example: DELETE /users/10

@@ -1,17 +1,25 @@
+4xx - Client error responses
+
 400 - Bad Request
-Wrong format / Missing field / Invalid JSON
+The request is malformed or missing required data.
+Example: wrong format, missing field, invalid JSON.
 
 401 - Unauthorized
-GET /profile - No token sent - You didn't authenticate
+The client has not provided valid authentication.
+Example: no token was sent.
 
 403 - Forbidden
-DELETE /admin/users - You are logged in - But you don't have permission
+The client is authenticated, but does not have permission to access the resource.
+Example: trying to delete an admin-only user.
 
-404 - Not found
-GET /users/9999 - No such user
+404 - Not Found
+The requested resource does not exist.
+Example: GET /users/9999
 
 409 - Conflict
-POST /users - User already exists - The request conflicts with existing data
+The request conflicts with the current state of the server.
+Example: trying to create a user that already exists.
 
 422 - Unprocessable Entity
-Valid JSON - But business logic failed
+The request is valid syntactically, but fails business rules.
+Example: valid JSON but invalid action.

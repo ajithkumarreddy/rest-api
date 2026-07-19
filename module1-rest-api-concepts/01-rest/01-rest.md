@@ -1,21 +1,23 @@
 # REST (Representational State Transfer)
 
-REST (Representational State Transfer) is an architectural style for designing web APIs that allows clients and servers to communicate over HTTP.
+REST is an architectural style for designing web APIs that lets clients and servers communicate over HTTP.
 
+Main ideas of REST:
 1. Resources are identified by URIs (Unique Resource Identifiers).
-2. Operations are performed using HTTP methods.
-3. Communication is stateless.
-4. Data is transferred through representations (typically JSON or XML).
+2. Operations are performed using HTTP methods such as GET, POST, PUT, PATCH, and DELETE.
+3. Communication is stateless, meaning each request contains all the information needed to understand it.
+4. Data is exchanged through representations, usually JSON or XML.
 
+Example:
 ```http
 GET /users/123
 ```
 
-Requests the resource with ID `123`.
+This request asks for the resource with ID 123.
 
-## Why REST?
+## Why REST is popular
 
 - Simple and scalable
-- Uses standard HTTP protocols
+- Built on standard HTTP rules
 - Easy for different systems to communicate
-- Widely used in web APIs
+- Widely used in modern web APIs

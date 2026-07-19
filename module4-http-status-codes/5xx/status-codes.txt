@@ -1,2 +1,5 @@
-500 - Internal server error
-server crashed
+5xx - Server error responses
+
+500 - Internal Server Error
+The server failed while processing the request.
+Example: unexpected server crash or unhandled exception.

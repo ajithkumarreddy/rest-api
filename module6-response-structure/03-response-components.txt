@@ -1,30 +1,32 @@
+Common Express response methods:
+
 /* Send */
-res.send() - Sends almost anything
-res.json() - Sends specifically json
+res.send() - sends a response body, such as text, HTML, or a buffer.
+res.json() - sends a JSON response.
 
 /* Status */
-res.status() - Sets the HTTP status code
-res.sendStatus() - Sets the HTTP status code and sends it
+res.status() - sets the HTTP status code.
+res.sendStatus() - sets the status code and sends the response.
 
 /* Redirect */
-res.redirect() - Redirects the client (Browser)
+res.redirect() - redirects the client to another URL.
 
 /* Files */
-res.sendFile() - Send a file
-res.download() - Forces a file download (Browser)
-res.render() - Used with template engines (Example: EJS)
+res.sendFile() - sends a file to the client.
+res.download() - forces a file download in the browser.
+res.render() - renders a view using a template engine such as EJS.
 
 /* Cookie */
-res.cookie() - Sets cookie in Browser
-res.clearCookie() - Clears the cookie
+res.cookie() - sets a cookie in the browser.
+res.clearCookie() - clears a cookie.
 
 /* Headers */
-res.set() - set headers or
-res.header() - set headers
-res.type() - Set Content-Type
+res.set() - sets one or more headers.
+res.header() - sets a response header.
+res.type() - sets the Content-Type header.
 
 /* Location */
-res.location() - set response header location
+res.location() - sets the Location response header.
 
 /* End */
-res.end() - Ends the response without sending a body
+res.end() - ends the response without sending a body.

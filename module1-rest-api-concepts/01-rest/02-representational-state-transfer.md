@@ -1,23 +1,18 @@
-# 1. Resource
+# Representational State Transfer (REST)
 
-A resource is any object, data, or service that can be accessed and manipulated through a URI (endpoint).
+REST is based on four core ideas:
 
-# 2. Representation
+1. Resource
+   - A resource is any object, data, or service that can be identified and accessed through a URI.
 
-A representation is the actual data of a resource sent between the client and server.
+2. Representation
+   - A representation is the data format used to describe a resource when it is sent between client and server.
+   - Common representations include JSON, XML, and HTML.
 
-A resource can have multiple representations, such as:
+3. State
+   - State refers to the current condition or data of a resource at a specific moment.
 
-- JSON
-- XML
-- HTML
+4. Transfer
+   - The client requests a resource, and the server transfers its representation over HTTP.
 
-# 3. State
-
-The state is the current data or condition of a resource at a particular moment.
-
-# 4. Transfer
-
-The client requests the data, the server transfers its respresentation over HTTP.
-
-That's the Representational State Transfer.
+That is the meaning of Representational State Transfer.

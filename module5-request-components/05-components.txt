@@ -1,6 +1,8 @@
-req.method - GET/POST/PUT
-req.url - /users/12?sort=name
-req.path - /users/12 - Not the query string
-req.get - "Authorization" / "User-Agent"
-req.ip - Returns the client's IP address
-req.host - api.example.com
+Common request properties in Express:
+
+req.method - the HTTP verb, such as GET, POST, PUT, or DELETE.
+req.url - the full URL path including the query string, such as /users/12?sort=name.
+req.path - the URL path without the query string, such as /users/12.
+req.get("Authorization") - reads a specific request header, such as Authorization or User-Agent.
+req.ip - returns the client IP address.
+req.host - returns the host value, such as api.example.com.
