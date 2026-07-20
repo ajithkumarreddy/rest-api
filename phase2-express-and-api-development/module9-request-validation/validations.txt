@@ -1,0 +1,7 @@
+Types of validation:
+1. Required fields
+2. Data type validation
+3. Minimum length
+4. Maximum length
+5. Regex validation
+6. Sanization
